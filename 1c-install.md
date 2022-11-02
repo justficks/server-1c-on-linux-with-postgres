@@ -52,17 +52,17 @@ systemctl daemon-reload
 5. Говорим, чтобы сервис стартовал при запуске системы:
 
 ```
-systemctl enable srv1cv8-8.3.21.1484.service
+systemctl enable srv1cv8.service
 ```
 
 6. Запускаем сервис:
 
 ```
-systemctl start srv1cv8-8.3.21.1484.service
+systemctl start srv1cv8.service
 ```
 
 7. Проверяем статус запуска. Всё должно быть без ошибок:
 
 ```
-systemctl status srv1cv8-8.3.21.1484.service
+systemctl status srv1cv8.service
 ```
