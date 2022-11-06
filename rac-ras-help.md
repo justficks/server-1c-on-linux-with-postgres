@@ -21,3 +21,17 @@
 ```
 
 и т.д.
+
+---
+
+Просмотр текущих кластеров:
+
+```
+./rac cluster list
+```
+
+Просмотр существующих информационных баз:
+
+```
+./rac infobase --cluster=CLUSTER_UID --cluster-user=admin --cluster-pwd=SECRET_PASSWORD_CLUSTER summary list
+```
