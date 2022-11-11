@@ -35,3 +35,9 @@
 ```
 ./rac infobase --cluster=CLUSTER_UID --cluster-user=admin --cluster-pwd=SECRET_PASSWORD_CLUSTER summary list
 ```
+
+Удаление информационной базы:
+
+```
+./rac infobase --cluster=CLUSTER_ID --cluster-user=admin --cluster-pwd=CLUSTER_PASSWORD drop --infobase=INFOBASE_UUID
+```
